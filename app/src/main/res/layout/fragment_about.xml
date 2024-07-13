@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/skyblue">
+
+    <!-- Header details -->
+    <TextView
+        android:id="@+id/tv_union_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUJARAT STATE FERTILIZERS EMPLOYEES UNION"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <TextView
+            android:id="@+id/tv_reg_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reg.No. : G-547"
+            android:textColor="@color/black"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tv_estd_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estd Date : 13-11-1967"
+            android:textColor="@color/black"
+            android:paddingBottom="4dp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_union_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P.O. FERTILIZER NAGAR - 391 750. Dist.: VADODARA"
+        android:textColor="@color/black"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tv_union_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: 0265 - 3092580, 3093580"
+        android:textColor="@color/black"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tv_union_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: gsfeunion2580@gmail.com"
+        android:textColor="@color/black"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tv_app_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For app-related concerns, contact: +919723677667"
+        android:textColor="@color/black"
+        android:paddingBottom="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp" />
+
+    <!-- RecyclerView for people details -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_people_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+</LinearLayout>

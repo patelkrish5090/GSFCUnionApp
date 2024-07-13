@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "689739524325",
+    "project_id": "gsfc-union-app",
+    "storage_bucket": "gsfc-union-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689739524325:android:0d37855dce63e9feb44c0c",
+        "android_client_info": {
+          "package_name": "com.example.gsfc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk2exRZ07ZXaDgRiMhqyZhNtEyhToaEOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
