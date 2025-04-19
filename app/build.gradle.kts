@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.gsfc"
+    namespace = "com.gsfe.gsfc"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.gsfc"
+        applicationId = "com.gsfe.gsfc"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -19,6 +19,7 @@ android {
 
     buildTypes {
         release {
+            isDebuggable = false
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }

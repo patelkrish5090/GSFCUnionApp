@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.home.HomeFragment"
+    tools:context="com.gsfe.gsfc.ui.home.HomeFragment"
     android:background="@color/skyblue">
 
     <LinearLayout
@@ -59,7 +59,7 @@
             android:id="@+id/policyTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Documents"
+            android:text="Information"
             android:textColor="@color/black"
             android:textSize="36sp"
             android:gravity="center"
@@ -83,7 +83,8 @@
                     android:id="@+id/recycler_view_policy"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:scrollbars="vertical"/>
+                    android:scrollbars="vertical"
+                    android:paddingBottom="56dp"/>
 
             </ScrollView>
 

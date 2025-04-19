@@ -9,7 +9,7 @@
     <item
         android:id="@+id/navigation_votes"
         android:icon="@drawable/ic_baseline_how_to_vote_24"
-        android:title="Vote" />
+        android:title="Opinion" />
 
     <item
         android:id="@+id/navigation_about"

@@ -9,7 +9,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@color/skyblue"
-    tools:context=".LoginActivity">
+    tools:context="com.gsfe.gsfc.LoginActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"

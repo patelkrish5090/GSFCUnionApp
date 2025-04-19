@@ -38,7 +38,7 @@
                 android:id="@+id/btnVote"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vote"
+                android:text="I Give my Opinion"
                 android:layout_marginTop="16dp"/>
 
             <TextView
